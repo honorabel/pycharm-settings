@@ -1,0 +1,19 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="important" pattern="(todo).*\(abel\).*" />
+    <pattern icon="question" useCustomColors="true" pattern="(note).*\(abel\).*">
+      <option name="FOREGROUND" value="1dbb12" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="108d04" />
+    </pattern>
+    <filter name="Abel TODO's">
+      <pattern index="2" />
+      <pattern index="3" />
+    </filter>
+  </component>
+</application>

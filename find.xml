@@ -1,0 +1,35 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Non-tests" />
+    <option name="defaultScopeName" value="Non-tests" />
+    <option name="showResultsInSeparateView" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
+    <option name="SEARCH_SCOPE" value="Non-tests" />
+    <option name="FILE_MASK" value="!*_test.py" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.py</mask>
+      <mask>*(.py</mask>
+      <mask>*(!.py</mask>
+      <mask>*(!(.py</mask>
+      <mask>*(!(test.py</mask>
+      <mask>*(!(test).py</mask>
+      <mask>*(!(_test).py</mask>
+      <mask>!*(!(_test).py</mask>
+      <mask>!*_test(!(_test).py</mask>
+      <mask>!*_test.(!(_test).py</mask>
+      <mask>!*_test.</mask>
+      <mask>!*_test.py</mask>
+    </recentFileMasks>
+  </component>
+</application>
