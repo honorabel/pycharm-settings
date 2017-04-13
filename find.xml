@@ -1,14 +1,14 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Non-tests" />
-    <option name="defaultScopeName" value="Non-tests" />
+    <option name="customScope" value="File '.../external_api/scheduling/schedule_controller.py - [external-api]'" />
+    <option name="defaultScopeName" value="File '.../external_api/scheduling/schedule_controller.py - [external-api]'" />
     <option name="localRegularExpressions" value="true" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Non-tests" />
+    <option name="SEARCH_SCOPE" value="File '.../external_api/scheduling/schedule_controller.py - [external-api]'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
