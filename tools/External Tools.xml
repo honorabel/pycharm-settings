@@ -1,9 +1,16 @@
 <toolSet name="External Tools">
   <tool name="pylint" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="./pythonenv /Users/abelallison/.pyenv/versions/2.7.9/envs/hpy-external-api/bin/pylint" />
+      <option name="COMMAND" value="$USER_HOME$/.pyenv/versions/2.7.9/envs/hpy-external-api/bin/pylint" />
       <option name="PARAMETERS" value="--rcfile=.pylintrc $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/Workspace/honor/external-api" />
+    </exec>
+  </tool>
+  <tool name="Nosetest" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="env" />
+      <option name="PARAMETERS" value="PYTHONPATH=$ProjectFileDir$:$ProjectFileDir$/thrift/out/gen-py /Users/abelallison/.pyenv/versions/2.7.9/envs/hpy-external-api/bin/nosetests --process-timeout=30 $FilePathRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
