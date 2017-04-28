@@ -151,6 +151,9 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="Tool_External Tools_pylint">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.JumpToSource">
