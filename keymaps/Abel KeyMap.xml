@@ -101,11 +101,13 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
-  <action id="Replace" />
+  <action id="Refresh" />
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="RunToCursor" />
