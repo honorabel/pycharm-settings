@@ -13,11 +13,12 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping pattern="V463__add_conflict_set_id_to_job_offer" type="DBN-SQL" />
       <mapping ext="vw" type="DBN-SQL" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="V463__add_conflict_set_id_to_job_offer.sql" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern=".git-bootstrapped" type="PLAIN_TEXT" />
-      <mapping pattern=".pylintrc-tools" type="PLAIN_TEXT" />
       <mapping pattern="V488__backfill_carepro_profile_approved_ts" type="PLAIN_TEXT" />
+      <mapping pattern=".pylintrc-tools" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
     </extensionMap>
